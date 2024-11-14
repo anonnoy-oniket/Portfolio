@@ -120,7 +120,7 @@ main .container {
 }
 
 textarea.custom-textarea {
-    width: 40%;
+    width: 90%;
     margin: 0.5rem 0px;
     padding: 10px;
     background-color: black;
@@ -128,6 +128,12 @@ textarea.custom-textarea {
     border: 1px solid white;
     resize: vertical;
     outline: none;
+}
+
+@media (min-width: 992px) {
+    textarea.custom-textarea{
+        width: 40%;
+    }
 }
 
 textarea.custom-textarea:focus {
@@ -138,7 +144,7 @@ textarea.custom-textarea:focus {
 
 
 .batman-button {
-    width: 50%;
+    width: 90%;
     padding: 15px 30px;
     font-size: 1.5rem;
     color: #ffd700;
@@ -150,6 +156,12 @@ textarea.custom-textarea:focus {
     z-index: 1;
     overflow: hidden;
     transition: color 0.2s, transform 0.2s;
+}
+
+@media (min-width: 992px) {
+    .batman-button{
+        width: 50%;
+    }
 }
 
 .batman-button:hover {
