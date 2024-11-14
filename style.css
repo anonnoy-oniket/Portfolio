@@ -29,7 +29,7 @@
     color: white;
 }
 
-.cv-download{
+.cv-download {
     text-decoration: none;
 }
 
@@ -57,11 +57,17 @@ main {
 
 .glow {
     font-weight: 700;
-    font-size: 4rem;
+    font-size: xx-large;
     color: #fff;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
+}
+
+@media (min-width: 992px) {
+    .glow {
+        font-size: 4rem;
+    }
 }
 
 @-webkit-keyframes glow {
